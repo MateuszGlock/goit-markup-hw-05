@@ -652,6 +652,9 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 700;
+  transition-property: color, background, box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-button:hover {
   background-color: var(--hover-button-background);
@@ -775,6 +778,9 @@ body {
   border: 1px solid #eeeeee;
   margin: 0 auto;
   padding-bottom: 20px;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-photo-box:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
