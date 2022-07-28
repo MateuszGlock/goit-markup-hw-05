@@ -47,6 +47,7 @@ body {
   list-style: none;
   margin: 0px;
   padding: 0px;
+  gap: 46px;
 }
 
 .logo {
@@ -93,16 +94,14 @@ body {
 .active::after {
   content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 42.5px;
-  background: var(--blue-color);
+  width: 53px;
+  top: 72px;
+  background: var(--hover-button-background);
   height: 4px;
   border-radius: 10px 10px 10px 10px;
 }
 .portfolio {
-  width: 58px;
-  margin-left: 46px;
+  width: 53px;
   margin-top: 32px;
 
   font-style: normal;
@@ -113,7 +112,6 @@ body {
 }
 .contact {
   width: 51px;
-  margin-left: 46px;
   margin-top: 32px;
 
   font-style: normal;
