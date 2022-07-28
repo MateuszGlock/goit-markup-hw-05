@@ -422,11 +422,6 @@ body {
   gap: 10px;
   justify-content: center;
 }
-.social-link {
-  display: flex;
-  border-radius: 50%;
-}
-
 .social-link a:hover {
   fill: white;
   background: var(--hover-button-background);
@@ -436,6 +431,10 @@ body {
   border-radius: 50%;
   padding: 11px;
   fill: var(--icon-color);
+  transition-property: fill, background;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 
 /*.social-link:hover,
@@ -495,6 +494,10 @@ body {
   width: 170px;
   height: 92px;
   fill: var(--icon-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .client:hover,
 .client:focus {
@@ -585,6 +588,10 @@ body {
 }
 .social-link-footer a:hover {
   fill: var(--link-color);
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
 }
 .social-links-ender-text {
   color: var(--header-background);
@@ -599,7 +606,6 @@ body {
   list-style: none;
   padding: 0px;
   gap: 10px;
-  margin-left: -10px;
 }
 .portfolio-part {
   background-color: var(--central-background);
