@@ -90,6 +90,16 @@ body {
 
   color: var(--text-color);
 }
+.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 42.5px;
+  background: var(--blue-color);
+  height: 4px;
+  border-radius: 10px 10px 10px 10px;
+}
 .portfolio {
   width: 58px;
   margin-left: 46px;
@@ -350,6 +360,25 @@ body {
   width: 370px;
   left: 1015px;
   top: 1061px;
+}
+.image-box {
+  margin: 0;
+  position: relative;
+}
+.signature-box {
+  position: absolute;
+  display: flex;
+  width: 370px;
+  height: 70px;
+  top: 224px;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--header-background);
+  background: rgba(47, 48, 58, 0.8);
 }
 .team-section {
   left: 0px;
