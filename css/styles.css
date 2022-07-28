@@ -70,10 +70,6 @@ body {
 }
 .link {
   text-decoration: none;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .link:hover {
   color: var(--link-color);
@@ -122,10 +118,6 @@ body {
 }
 .text-icon {
   display: flex;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .text-icon:hover {
   color: #2196f3;
@@ -163,7 +155,6 @@ body {
 }
 .icon-phone {
   align-items: center;
-  padding-top: 2px;
 }
 .header-phone {
   margin: 0px;
@@ -177,7 +168,7 @@ body {
   font-weight: 500;
   line-height: 16px;
   letter-spacing: 0.02em;
-  padding-top: 3px;
+  padding-top: 5px;
 }
 .central {
   background: var(--header-background);
@@ -430,10 +421,6 @@ body {
 .social-link {
   display: flex;
   border-radius: 50%;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 .social-link a:hover {
@@ -445,10 +432,6 @@ body {
   border-radius: 50%;
   padding: 11px;
   fill: var(--icon-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 
 /*.social-link:hover,
@@ -508,10 +491,6 @@ body {
   width: 170px;
   height: 92px;
   fill: var(--icon-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .client:hover,
 .client:focus {
@@ -599,10 +578,6 @@ body {
 }
 .social-link-footer {
   fill: rgba(255, 255, 255, 0.1);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .social-link-footer a:hover {
   fill: var(--link-color);
@@ -667,11 +642,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   font-weight: 700;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .portfolio-button:hover {
   background-color: var(--hover-button-background);
@@ -795,11 +765,6 @@ body {
   border: 1px solid #eeeeee;
   margin: 0 auto;
   padding-bottom: 20px;
-
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0;
 }
 .portfolio-photo-box:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
