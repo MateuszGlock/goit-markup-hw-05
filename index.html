@@ -78,7 +78,16 @@
             DLA WASZEGO BIZNESU
           </h1>
           <div class="button-box">
-            <button class="button" type="button">Zamów usługę</button>
+            <button class="button" type="button" data-modal-open>
+              Zamów usługę
+            </button>
+            <div class="backdrop is-hidden" data-modal>
+              <section class="modal">
+                <section class="modal-content">
+                  <button class="modal-exit" data-modal-close>X</button>
+                </section>
+              </section>
+            </div>
           </div>
         </div>
       </div>
@@ -500,5 +509,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
